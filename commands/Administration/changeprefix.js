@@ -5,17 +5,17 @@ class Setprefix extends Command {
 
     constructor (client) {
         super(client, {
-            name: "setprefix",
+            name: "changeprefix",
             description: (language) => language.get('SETPREFIX_DESCRIPTION'),
             dirname: __dirname,
-            usage: "setprefix [préfixe]",
+            usage: "changeprefix [préfixe]",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: "MANAGE_GUILD",
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$setprefix !",
+            examples: "$changeprefix !",
             owner: false
         });
     }
