@@ -5,17 +5,17 @@ class Pay extends Command {
 
     constructor (client) {
         super(client, {
-            name: "pay",
+            name: "paye",
             description: (language) => language.get('PAY_DESCRIPTION'),
             dirname: __dirname,
-            usage: "pay [@member] [amount]",
+            usage: "paye [@membre] [montant]",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$pay @Androz#2091 10",
+            examples: "$paye @AzZni_#8030 10",
             owner: false
         });
     }
