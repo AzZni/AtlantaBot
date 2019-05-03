@@ -5,17 +5,17 @@ class Setafk extends Command {
 
     constructor (client) {
         super(client, {
-            name: "setafk",
+            name: "afk",
             description: (language) => language.get('SETAFK_DESCRIPTION'),
             dirname: __dirname,
-            usage: "setafk [reason]",
+            usage: "afk [raison]",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$setafk sleeping",
+            examples: "$afk dort",
             owner: false
         });
     }
