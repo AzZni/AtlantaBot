@@ -15,7 +15,7 @@ class Addcommand extends Command {
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$addcommand ip 192.168.1.1",
+            examples: "$addcommande ip 192.168.1.1",
             owner: false
         });
     }
