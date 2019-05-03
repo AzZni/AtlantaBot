@@ -7,17 +7,17 @@ class Remindme extends Command {
 
     constructor (client) {
         super(client, {
-            name: "remindme",
+            name: "rappel",
             description: (language) => language.get('REMINDME_DESCRIPTION'),
             dirname: __dirname,
-            usage: "remindme [time] [message]",
+            usage: "rappel [temps] [message]",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$remindme 10m Hello",
+            examples: "$rappel 10m Manger",
             owner: false
         });
     }
