@@ -15,7 +15,7 @@ class Delcommand extends Command {
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$delcommand ip",
+            examples: "$delcommande ip",
             owner: false
         });
     }
