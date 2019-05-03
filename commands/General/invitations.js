@@ -8,14 +8,14 @@ class Invitations extends Command {
             name: "invitations",
             description: (language) => language.get('INVITATIONS_DESCRIPTION'),
             dirname: __dirname,
-            usage: "invitations (@member)",
+            usage: "invitations (@membre)",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS", "MANAGE_GUILD" ],
             nsfw: false,
-            examples: "$invitations\n$invitations @Androz#2091",
+            examples: "$invitations\n$invitations @AzZni_#8030",
             owner: false
         });
     }
