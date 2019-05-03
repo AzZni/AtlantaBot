@@ -11,11 +11,11 @@ class Rep extends Command {
             usage: "rep [@membre]",
             enabled: true,
             guildOnly: true,
-            aliases: [],
+            aliases: [reputation],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$rep @Androz#2091",
+            examples: "$rep @AzZni_#8030",
             owner: false
         });
     }
