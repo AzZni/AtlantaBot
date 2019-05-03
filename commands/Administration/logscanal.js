@@ -5,17 +5,17 @@ class Setlogs extends Command {
 
     constructor (client) {
         super(client, {
-            name: "setlogs",
+            name: "logscanal",
             description: (language) => language.get('SETLOGS_DESCRIPTION'),
             dirname: __dirname,
-            usage: "setlogs",
+            usage: "logscanals",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: "MANAGE_GUILD",
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$setlogs",
+            examples: "$logscanal",
             owner: false
         });
     }
