@@ -5,17 +5,17 @@ class Guildinfo extends Command {
 
     constructor (client) {
         super(client, {
-            name: "guildinfo",
+            name: "serveurinfo",
             description: (language) => language.get('GUILDINFO_DESCRIPTION'),
             dirname: __dirname,
-            usage: "guildinfo",
+            usage: "serveurinfo",
             enabled: true,
             guildOnly: true,
-            aliases: ["si","gi","serverinfo"],
+            aliases: ["si","serverinfo"],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$guildinfo",
+            examples: "$serveurinfo",
             owner: false
         });
     }
