@@ -87,14 +87,14 @@ class Badge extends Command {
                     price:18000
                 },
                 {
+                    name:'Fadonien',
+                    str:'<:bdg_troll:566894143347884064>',
+                    price:5000
+                },
+                {
                     name:'Troll',
                     str:'<:bdg_troll:566894143347884064>',
                     price:3000
-                },
-                {
-                    name:'Atlanta',
-                    str:'<:bdg_atlanta:566892999116849163>',
-                    price:1200
                 },
                 {
                     name:'IAMABOT',
