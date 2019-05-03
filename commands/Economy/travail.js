@@ -5,17 +5,17 @@ class Work extends Command {
 
     constructor (client) {
         super(client, {
-            name: "work",
+            name: "travail",
             description: (language) => language.get('WORK_DESCRIPTION'),
             dirname: __dirname,
-            usage: "work",
+            usage: "travail",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$work",
+            examples: "$travail",
             owner: false
         });
     }
