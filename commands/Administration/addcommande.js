@@ -5,10 +5,10 @@ class Addcommand extends Command {
 
     constructor (client) {
         super(client, {
-            name: "addcommand",
+            name: "addcommande",
             description: (language) => language.get('ADDCOMMAND_DESCRIPTION'),
             dirname: __dirname,
-            usage: "addcommand [nom] [réponse]",
+            usage: "addcommande [nom] [réponse]",
             enabled: true,
             guildOnly: true,
             aliases: ["pong",],
