@@ -5,17 +5,17 @@ class Credits extends Command {
 
     constructor (client) {
         super(client, {
-            name: "credits",
+            name: "money",
             description: (language) => language.get('CREDITS_DESCRIPTION'),
             dirname: __dirname,
-            usage: "credits [@membre]",
+            usage: "money [@membre]",
             enabled: true,
             guildOnly: true,
             aliases: ["balance"],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$credits\n$credits @Androz#2091",
+            examples: "$money\n$money @AzZni_#8030",
             owner: false
         });
     }
