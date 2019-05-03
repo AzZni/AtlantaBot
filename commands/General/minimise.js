@@ -7,17 +7,17 @@ class Minimize extends Command {
 
     constructor (client) {
         super(client, {
-            name: "minimize",
+            name: "minimise",
             description: (language) => language.get('MINIMIZE_DESCRIPTION'),
             dirname: __dirname,
-            usage: "minimize [link]",
+            usage: "minimise [lien]",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: "MANAGE_MESSAGES",
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$minimize https://google.fr",
+            examples: "$minimise https://google.fr",
             owner: false
         });
     }
