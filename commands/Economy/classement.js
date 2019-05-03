@@ -5,17 +5,17 @@ class Leaderboard extends Command {
 
     constructor (client) {
         super(client, {
-            name: "leaderboard",
+            name: "classement",
             description: (language) => language.get('LEADERBOARD_DESCRIPTION'),
             dirname: __dirname,
-            usage: "leaderboard [credits/level/rep]",
+            usage: "classement [money/niveau/rep]",
             enabled: true,
             guildOnly: false,
             aliases: ["top"],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$credits\n$credits @Androz#2091",
+            examples: "$money\n$money @AzZni_#8030",
             owner: false
         });
     }
