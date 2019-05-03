@@ -5,17 +5,17 @@ class Welcome extends Command {
 
     constructor (client) {
         super(client, {
-            name: "welcome",
+            name: "bienvenue",
             description: (language) => language.get('WELCOME_DESCRIPTION'),
             dirname: __dirname,
-            usage: "welcome",
+            usage: "bienvenue",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: "MANAGE_GUILD",
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$welcome",
+            examples: "$bienvenue",
             owner: false
         });
     }
