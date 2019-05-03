@@ -5,17 +5,17 @@ class Birthdate extends Command {
 
     constructor (client) {
         super(client, {
-            name: "birthdate",
+            name: "anniversaire",
             description: (language) => language.get('BIRTHDATE_DESCRIPTION'),
             dirname: __dirname,
-            usage: "birthdate [date]",
+            usage: "anniversaire [date]",
             enabled: true,
             guildOnly: false,
             aliases: ["anniv"],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$birthdate 01/12/2000",
+            examples: "$anniversaire 01/12/2000",
             owner: false
         });
     }
