@@ -5,10 +5,10 @@ class Ignore extends Command {
 
     constructor (client) {
         super(client, {
-            name: "leave",
+            name: "aurevoir",
             description: (language) => language.get('LEAVE_DESCRIPTION'),
             dirname: __dirname,
-            usage: "leave",
+            usage: "aurevoir",
             enabled: true,
             guildOnly: true,
             aliases: [],
