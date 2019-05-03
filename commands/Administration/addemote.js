@@ -8,7 +8,7 @@ class Addemote extends Command {
             name: "addemote",
             description: (language) => language.get('ADDEMOTE_DESCRIPTION'),
             dirname: __dirname,
-            usage: "addemote [link]",
+            usage: "addemote [lien]",
             enabled: true,
             guildOnly: true,
             aliases: [],
