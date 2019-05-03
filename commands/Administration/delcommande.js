@@ -5,10 +5,10 @@ class Delcommand extends Command {
 
     constructor (client) {
         super(client, {
-            name: "delcommand",
+            name: "delcommande",
             description: (language) => language.get('DELCOMMAND_DESCRIPTION'),
             dirname: __dirname,
-            usage: "delcommand [name]",
+            usage: "delcommande [nom]",
             enabled: true,
             guildOnly: true,
             aliases: ["pong",],
