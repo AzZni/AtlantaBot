@@ -5,17 +5,17 @@ class Quote extends Command {
 
     constructor (client) {
         super(client, {
-            name: "quote",
+            name: "cite",
             description: (language) => language.get('QUOTE_DESCRIPTION'),
             dirname: __dirname,
-            usage: "quote [message ID] (channel ID)",
+            usage: "cite [message ID] (channel ID)",
             enabled: true,
             guildOnly: false,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$quote 573447254258745365 222081003253006336",
+            examples: "$cite 573447254258745365 222081003253006336",
             owner: false
         });
     }
