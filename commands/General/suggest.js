@@ -5,17 +5,17 @@ class Suggest extends Command {
 
     constructor (client) {
         super(client, {
-            name: "suggest",
+            name: "suggestion",
             description: (language) => language.get('SUGGEST_DESCRIPTION'),
             dirname: __dirname,
-            usage: "suggest [suggestion]",
+            usage: "suggestion [suggestion]",
             enabled: true,
             guildOnly: true,
-            aliases: [],
+            aliases: [suggest],
             permission: false,
             botpermissions: [ "SEND_MESSAGES", "EMBED_LINKS" ],
             nsfw: false,
-            examples: "$suggestion A new channel",
+            examples: "$suggestion Un bot personnalisé",
             owner: false
         });
     }
