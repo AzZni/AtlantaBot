@@ -5,17 +5,17 @@ class Setbio extends Command {
 
     constructor (client) {
         super(client, {
-            name: "setbio",
+            name: "setdesc",
             description: (language) => language.get('SETBIO_DESCRIPTION'),
             dirname: __dirname,
-            usage: "setbio [bio]",
+            usage: "setdesc [description]",
             enabled: true,
             guildOnly: false,
-            aliases: [],
+            aliases: [setdescription],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$setbio Développeur C++",
+            examples: "$setdesc Chef de la faction FadoBot",
             owner: false
         });
     }
