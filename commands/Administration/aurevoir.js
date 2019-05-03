@@ -15,7 +15,7 @@ class Ignore extends Command {
             permission: "MANAGE_GUILD",
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$leave",
+            examples: "$aurevoir",
             owner: false
         });
     }
