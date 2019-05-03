@@ -5,17 +5,17 @@ class Slots extends Command {
 
     constructor (client) {
         super(client, {
-            name: "slots",
+            name: "chance",
             description: (language) => language.get('SLOTS_DESCRIPTION'),
             dirname: __dirname,
-            usage: "slots [amount]",
+            usage: "chance [montant]",
             enabled: true,
             guildOnly: false,
             aliases: [],
             permission: false,
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$slots 10",
+            examples: "$chance 10",
             owner: false
         });
     }
