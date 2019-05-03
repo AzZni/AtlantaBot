@@ -5,17 +5,17 @@ class Setsuggests extends Command {
 
     constructor (client) {
         super(client, {
-            name: "setsuggests",
+            name: "suggestscanal",
             description: (language) => language.get('SETSUGGESTS_DESCRIPTION'),
             dirname: __dirname,
-            usage: "setsuggests",
+            usage: "suggestscanal",
             enabled: true,
             guildOnly: true,
             aliases: [],
             permission: "MANAGE_GUILD",
             botpermissions: [ "SEND_MESSAGES" ],
             nsfw: false,
-            examples: "$setsuggests",
+            examples: "$suggestscanal",
             owner: false
         });
     }
